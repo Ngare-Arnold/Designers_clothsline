@@ -6,9 +6,15 @@ body {
   html {
     box-sizing: border-box;
   }
+<<<<<<< HEAD
   
   
   
+=======
+
+
+
+>>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
   
   *, *:before, *:after {
     box-sizing: inherit;
@@ -27,13 +33,21 @@ body {
   .grid-item3{
     grid-column-end: 13;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
   .tem-image{
     height: 450px;
     padding : 50px;
     border-radius: 65px;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
   .column {
     float: left;
     width: 33.3%;
@@ -88,6 +102,7 @@ body {
       width: 100%;
       display: block;
     }
+<<<<<<< HEAD
   }
   
   .column {
@@ -163,3 +178,6 @@ body {
     }
   
   
+=======
+  }
+>>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
