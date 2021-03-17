@@ -6,15 +6,9 @@ body {
   html {
     box-sizing: border-box;
   }
-<<<<<<< HEAD
-  
-  
-  
-=======
 
 
 
->>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
   
   *, *:before, *:after {
     box-sizing: inherit;
@@ -33,21 +27,13 @@ body {
   .grid-item3{
     grid-column-end: 13;
   }
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
   .tem-image{
     height: 450px;
     padding : 50px;
     border-radius: 65px;
   }
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
   .column {
     float: left;
     width: 33.3%;
@@ -102,7 +88,98 @@ body {
       width: 100%;
       display: block;
     }
-<<<<<<< HEAD
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .grid-container {
+    display: inline-grid;
+    text-align: center;
+  }
+  .grid-item1{
+    grid-column-end: 4;
+  }
+  .grid-item2{
+    grid-column-end: 8;
+  }
+  .grid-item3{
+    grid-column-end: 13;
+  }
+  
+  .tem-image{
+    height: 450px;
+    padding : 50px;
+    border-radius: 65px;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
   }
   
   .column {
@@ -122,7 +199,6 @@ body {
       font-size: larger;
       font-family: trebuchet Ms; 
   }
-  
   
   a {
       text-decoration: none;
@@ -177,7 +253,52 @@ body {
         outline: none;
     }
   
-  
-=======
+  .mainContent{
+    height: 3000px;
+    width: 100%;
+    background-image: url('../Images/a.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:red;
   }
->>>>>>> 94aeecb68efa9e88535dc76e6f4cc41d66a2795b
+  .innText{
+    font-size: 50px;
+    font-style: italic;
+  }
+  .onebg{
+    background-image: url('../Images/bg-one.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    margin-left: 345px;
+    padding: 50px;
+  }
+  .bgTwo{
+    background-image: url('../Images/Billabong\ Unisex\ Showcase\ Surf\ Tee\ \($17\)\ ❤\ liked….jpeg');
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 345px;
+    padding: 50px;
+  }
+  .bgThree{
+    background-image: url('../Images/Nude\ Pants\ and\ Trousers\ _\ Nudevotion.jpeg');
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 345px;
+    padding: 50px;
+  }
+  .bgFour{
+    background-image: url('../Images/Push\ Up\ Brassiere\ and\ High-Waist\ Panties.jpeg');
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 345px;
+    padding: 50px;
+  }
+  .bgFive{
+    background-image: url('../Images/Lashes\ and\ Lip\ Gloss\ bundles\ _\ 3D\ Mink\ Lashes\ _\ Lip\ Gloss\ bundles\ _homemade\ lipgloss_\ lip\ tint_\ mink\ lashes\ _\ Queen.jpeg');
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 345px;
+    padding: 50px;
+  }
